@@ -1,0 +1,1 @@
+sed -i '' 's/const \[saving, setSaving\] = useState(false)/const \[saving, setSaving\] = useState(false)\n  const \[retakeSlot, setRetakeSlot\] = useState<number | null>(null)\n  const \[sessionKey, setSessionKey\] = useState(0)/' src/app/booth/page.tsx

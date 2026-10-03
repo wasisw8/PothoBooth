@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: #FF6B9D;
+  --color-primary-dark: #E91E6B;
+  --color-secondary: #C084FC;
+  --color-secondary-dark: #A855F7;
+  --color-accent: #FCD34D;
+  --color-accent-dark: #F59E0B;
+  --color-bg-main: #FFF5F7;
+  --color-bg-card: #FFFFFF;
+  --font-sans: var(--font-nunito);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg-main);
+  color: #1f2937;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Cute button bounce animation */
+@keyframes bounce-soft {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+.animate-bounce-soft {
+  animation: bounce-soft 2s ease-in-out infinite;
+}
+
+/* Camera flash effect */
+@keyframes flash {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.animate-flash {
+  animation: flash 0.3s ease-out;
+}
+
+/* Countdown animation */
+@keyframes countdown-pop {
+  0% { transform: scale(0.5); opacity: 0; }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-countdown {
+  animation: countdown-pop 0.5s ease-out;
+}
+
+/* Confetti dots background pattern */
+.bg-confetti {
+  background-image: 
+    radial-gradient(circle, #FF6B9D 1px, transparent 1px),
+    radial-gradient(circle, #C084FC 1px, transparent 1px),
+    radial-gradient(circle, #FCD34D 1px, transparent 1px);
+  background-size: 60px 60px, 80px 80px, 100px 100px;
+  background-position: 0 0, 30px 30px, 15px 45px;
 }

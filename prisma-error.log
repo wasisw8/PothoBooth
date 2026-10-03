@@ -1,0 +1,23 @@
+[PRISMA ERROR] 
+Invalid `p.account.findUnique()` invocation in
+/Users/user/Projects/pothobothku/.next/dev/server/chunks/[root-of-the-server]__0_zxwso._.js:31:45
+
+  28         }
+  29     }),
+  30 async getUserByAccount (provider_providerAccountId) {
+→ 31     const account = await p.account.findUnique(
+Prisma Client could not locate the Query Engine for runtime "darwin".
+
+This happened because Prisma Client was generated for "darwin-arm64", but the actual deployment required "darwin".
+Add "darwin" to `binaryTargets` in the "schema.prisma" file and run `prisma generate` after saving it:
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "darwin"]
+}
+
+The following locations have been searched:
+  /Users/user/Projects/pothobothku/node_modules/.prisma/client
+  /Users/user/Projects/pothobothku/node_modules/@prisma/client
+  /tmp/prisma-engines
+  /Users/user/Projects/pothobothku/prisma

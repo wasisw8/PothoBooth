@@ -1,0 +1,150 @@
+[WARN debug-enabled] [0,["debug-enabled"]]
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] []
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] []
+[WARN debug-enabled] [0,["debug-enabled"]]
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] []
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] []
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] undefined
+undefined
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] undefined
+undefined
+[WARN debug-enabled] [0,["debug-enabled"]]
+[WARN debug-enabled] [0,["debug-enabled"]]
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] undefined
+undefined
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] undefined
+undefined
+[WARN debug-enabled] [0,["debug-enabled"]]
+[WARN debug-enabled] [0,["debug-enabled"]]
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] undefined
+undefined
+[AdapterError: Read more at https://errors.authjs.dev#adaptererror] undefined
+undefined
+[WARN debug-enabled] [0,["debug-enabled"]]
+[WARN debug-enabled] [0,["debug-enabled"]]
+
+--- ERROR ---
+Name: AdapterError
+Message: Read more at https://errors.authjs.dev#adaptererror
+Cause Message: undefined
+Stack: AdapterError: Read more at https://errors.authjs.dev#adaptererror
+    at acc.<computed> (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2707:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Module.callback (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:977:33)
+    at async AuthInternal (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2486:24)
+    at async Auth (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:350:34)
+    at async AppRouteRouteModule.do (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:42793)
+    at async AppRouteRouteModule.handle (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:50547)
+    at async responseGenerator (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5328:30)
+    at async AppRouteRouteModule.handleResponse (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:1:250435)
+    at async handleResponse (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5400:32)
+    at async Module.handler (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5520:9)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1537:9)
+    at async DevServer.renderPageComponent (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1589:24)
+    at async DevServer.renderToResponseImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1639:32)
+    at async DevServer.pipeImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1088:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/next-server.js:338:17)
+    at async DevServer.handleRequestImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:979:17)
+    at async /Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:426:20
+    at async Span.traceAsyncFn (/Users/user/Projects/pothobothku/node_modules/next/dist/trace/trace.js:164:20)
+    at async DevServer.handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:422:24)
+    at async invokeRender (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:306:21)
+    at async handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:508:24)
+    at async requestHandlerImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:565:13)
+    at async Server.requestListener (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/start-server.js:225:13)
+---
+
+--- ERROR ---
+Name: AdapterError
+Message: Read more at https://errors.authjs.dev#adaptererror
+Cause Message: undefined
+Stack: AdapterError: Read more at https://errors.authjs.dev#adaptererror
+    at acc.<computed> (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2707:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Module.callback (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:977:33)
+    at async AuthInternal (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2486:24)
+    at async Auth (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:350:34)
+    at async AppRouteRouteModule.do (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:42793)
+    at async AppRouteRouteModule.handle (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:50547)
+    at async responseGenerator (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5328:30)
+    at async AppRouteRouteModule.handleResponse (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:1:250435)
+    at async handleResponse (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5400:32)
+    at async Module.handler (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5520:9)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1537:9)
+    at async DevServer.renderPageComponent (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1589:24)
+    at async DevServer.renderToResponseImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1639:32)
+    at async DevServer.pipeImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1088:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/next-server.js:338:17)
+    at async DevServer.handleRequestImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:979:17)
+    at async /Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:426:20
+    at async Span.traceAsyncFn (/Users/user/Projects/pothobothku/node_modules/next/dist/trace/trace.js:164:20)
+    at async DevServer.handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:422:24)
+    at async invokeRender (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:306:21)
+    at async handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:508:24)
+    at async requestHandlerImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:565:13)
+    at async Server.requestListener (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/start-server.js:225:13)
+---
+[WARN debug-enabled] [0,["debug-enabled"]]
+[WARN debug-enabled] [0,["debug-enabled"]]
+
+--- ERROR ---
+Name: AdapterError
+Message: Read more at https://errors.authjs.dev#adaptererror
+Cause Message: undefined
+Stack: AdapterError: Read more at https://errors.authjs.dev#adaptererror
+    at acc.<computed> (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2707:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Module.callback (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:977:33)
+    at async AuthInternal (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2486:24)
+    at async Auth (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:350:34)
+    at async AppRouteRouteModule.do (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:42793)
+    at async AppRouteRouteModule.handle (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:50547)
+    at async responseGenerator (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5328:30)
+    at async AppRouteRouteModule.handleResponse (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:1:250435)
+    at async handleResponse (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5400:32)
+    at async Module.handler (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5520:9)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1537:9)
+    at async DevServer.renderPageComponent (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1589:24)
+    at async DevServer.renderToResponseImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1639:32)
+    at async DevServer.pipeImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1088:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/next-server.js:338:17)
+    at async DevServer.handleRequestImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:979:17)
+    at async /Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:426:20
+    at async Span.traceAsyncFn (/Users/user/Projects/pothobothku/node_modules/next/dist/trace/trace.js:164:20)
+    at async DevServer.handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:422:24)
+    at async invokeRender (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:306:21)
+    at async handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:508:24)
+    at async requestHandlerImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:565:13)
+    at async Server.requestListener (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/start-server.js:225:13)
+---
+
+--- ERROR ---
+Name: AdapterError
+Message: Read more at https://errors.authjs.dev#adaptererror
+Cause Message: undefined
+Stack: AdapterError: Read more at https://errors.authjs.dev#adaptererror
+    at acc.<computed> (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2707:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async Module.callback (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:977:33)
+    at async AuthInternal (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:2486:24)
+    at async Auth (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_@auth_core_11waxm4._.js:350:34)
+    at async AppRouteRouteModule.do (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:42793)
+    at async AppRouteRouteModule.handle (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:5:50547)
+    at async responseGenerator (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5328:30)
+    at async AppRouteRouteModule.handleResponse (/Users/user/Projects/pothobothku/node_modules/next/dist/compiled/next-server/app-route-turbo.runtime.dev.js:1:250435)
+    at async handleResponse (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5400:32)
+    at async Module.handler (/Users/user/Projects/pothobothku/.next/dev/server/chunks/node_modules_next_1e9htnb._.js:5520:9)
+    at async DevServer.renderToResponseWithComponentsImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1537:9)
+    at async DevServer.renderPageComponent (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1589:24)
+    at async DevServer.renderToResponseImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1639:32)
+    at async DevServer.pipeImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:1088:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/next-server.js:338:17)
+    at async DevServer.handleRequestImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/base-server.js:979:17)
+    at async /Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:426:20
+    at async Span.traceAsyncFn (/Users/user/Projects/pothobothku/node_modules/next/dist/trace/trace.js:164:20)
+    at async DevServer.handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/dev/next-dev-server.js:422:24)
+    at async invokeRender (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:306:21)
+    at async handleRequest (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:508:24)
+    at async requestHandlerImpl (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/router-server.js:565:13)
+    at async Server.requestListener (/Users/user/Projects/pothobothku/node_modules/next/dist/server/lib/start-server.js:225:13)
+---

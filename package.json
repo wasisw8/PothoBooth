@@ -9,18 +9,34 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^2.11.3",
+    "@prisma/client": "^5.22.0",
+    "date-fns": "^4.4.0",
+    "lucide-react": "^1.48.0",
     "next": "16.3.6",
+    "next-auth": "^5.0.0-beta.32",
+    "prisma": "^5.22.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-webcam": "^7.2.0",
+    "zustand": "^5.0.15"
   },
   "devDependencies": {
+    "@tailwindcss/oxide-darwin-arm64": "^4.3.3",
+    "@tailwindcss/oxide-darwin-x64": "^4.3.3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
+    "lightningcss-darwin-arm64": "^1.33.0",
+    "lightningcss-darwin-x64": "^1.33.0",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
   }
 }

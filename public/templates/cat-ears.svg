@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <!-- Cat Ears & Whiskers -->
+  <!-- Left ear -->
+  <path d="M180 80 L220 10 L260 80" fill="#333" stroke="#333" stroke-width="3"/>
+  <path d="M195 75 L220 25 L245 75" fill="#FFB6C1"/>
+  <!-- Right ear -->
+  <path d="M380 80 L420 10 L460 80" fill="#333" stroke="#333" stroke-width="3"/>
+  <path d="M395 75 L420 25 L445 75" fill="#FFB6C1"/>
+  <!-- Nose -->
+  <path d="M310 380 L320 370 L330 380 Z" fill="#FF69B4"/>
+  <!-- Whiskers left -->
+  <line x1="200" y1="370" x2="290" y2="375" stroke="#333" stroke-width="2.5" opacity="0.7"/>
+  <line x1="195" y1="385" x2="285" y2="385" stroke="#333" stroke-width="2.5" opacity="0.7"/>
+  <line x1="200" y1="400" x2="290" y2="395" stroke="#333" stroke-width="2.5" opacity="0.7"/>
+  <!-- Whiskers right -->
+  <line x1="440" y1="370" x2="350" y2="375" stroke="#333" stroke-width="2.5" opacity="0.7"/>
+  <line x1="445" y1="385" x2="355" y2="385" stroke="#333" stroke-width="2.5" opacity="0.7"/>
+  <line x1="440" y1="400" x2="350" y2="395" stroke="#333" stroke-width="2.5" opacity="0.7"/>
+  <!-- Blush -->
+  <circle cx="230" cy="390" r="25" fill="#FFB6C1" opacity="0.4"/>
+  <circle cx="410" cy="390" r="25" fill="#FFB6C1" opacity="0.4"/>
+  <!-- Meow text -->
+  <text x="320" y="460" text-anchor="middle" font-size="20" font-weight="bold" fill="#FF69B4" font-family="sans-serif">~Meow~</text>
+</svg>
